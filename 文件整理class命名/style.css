@@ -1,0 +1,144 @@
+/* 如有使用中文編碼宣告 */
+@charset "utf-8";
+/* 文件開頭說明 */
+/* 
+    page name
+    copy right 2020
+    auther
+    licensed
+*/
+/* 目錄，區段的註解 */
+/* ------------------------------- \*
+    Content
+\* ------------------------------- */
+/**
+ * Content .................... You are reading it!
+ * Globel ..................... Set common styles
+ * Layout ..................... Set grid
+ * Components ................. Set components styles
+ * Pages ...................... Set different page styles
+ * Utility .................... Set utility tiils
+ */
+
+
+/* ------------------------------- \*
+    Globel 全域，通常為初步的設定
+\* ------------------------------- */
+*{
+
+}
+
+
+
+/* ------------------------------- \*
+    Layout 布局，用來排版的容器、格線等等
+\* ------------------------------- */
+.row{
+
+}
+.col{
+
+}
+
+
+
+/* ------------------------------- \*
+    Components/Elements 元件的樣式
+\* ------------------------------- */
+/* btn */
+.btn{
+
+}
+/* nav */
+.nav{
+
+}
+
+/* navber */
+.navber{
+
+}
+.navber .btn{
+
+}
+.navber .nav{
+
+}
+/* card */
+.card{
+    width: 100%;
+}
+/* products */
+.products{
+
+}
+
+.products .products-card{
+
+}
+
+
+/* footer */
+.footer .nav{
+
+}
+
+
+
+/* ------------------------------- \*
+    Pages
+\* ------------------------------- */
+/* homepage */
+.homepage .navber .btn{
+
+}
+
+/* about */
+.about .navber .btn{
+
+}
+
+
+/* ------------------------------- \*
+    Utility 公用型的css樣式，如:.clearfix
+\* ------------------------------- */
+.clearfix{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

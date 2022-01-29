@@ -1,0 +1,48 @@
+/* 0-0-1-0-0 */
+/* #jj{
+    width: 1200px;
+} */
+/* 0-0-0-1-0 */
+.colorpalette{
+    border: 1px solid #000;
+    width: 400px;
+    background-color: #ccc;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.877);
+}
+/* 1-0-0-0-0 */
+/* div{
+    width: 600px !important;
+} */
+/* 0-0-0-1-1 */
+/* div.colorpalette{
+    width: 800px;
+} */
+.color{
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+    font-family: "微軟正黑體";
+    line-height: 2;
+    /* border: 1px solid #000; */
+    text-align: center;
+    margin: 0;
+}
+.color1{
+    background-color: #372C4A;
+}
+.color2{
+    background-color: #4F3961;
+}
+.color3{
+    background-color: #EA728C;
+}
+.color4{
+    background-color: #FC9D9D;
+}
+.color5{
+    background-color: #F3D4D4;
+    height: 300px;
+}
+.color5{
+    background-color: black;
+}

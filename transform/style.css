@@ -1,0 +1,58 @@
+.wrapper{
+    border: 2px solid #000;
+    height: 600px;
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    /* 變形 transform */
+    /* transform: translate(100px, 100px); */
+    /* transform: translateX(100px);
+    transform: translateY(100px); */
+    /* transform: rotate(45deg); */
+    /* transform: skew(45deg); */
+    /* transform: scale(0.5); */
+    /* transform position置中 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* 偽元素 預設為行內樣式*/
+.box::before{
+    content: '嗨嗨嗨';
+    background-color: yellow;
+    display:block;
+}
+/* .wrapper ::before{與上面的寫法相同
+    content: '嗨嗨嗨';
+} */
+/* 注意空格 */
+.wrapper ::after{
+    content: '掰掰掰';
+    display: block;
+    background-color: yellow;
+}
+
+/* hover active */
+
+.box:hover{
+    background: blue;
+}
+
+.box:active{
+    background: green;
+}
+
+/* 結合使用 */
+.box:hover::after{
+    background-color: orangered;
+}
+
+
+
+
+

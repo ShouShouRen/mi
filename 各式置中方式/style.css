@@ -1,0 +1,75 @@
+.outter{
+    height: 300px;
+    border: 1px solid #000;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #68a2ff;
+}
+/* 1. margin: 0 auto; */
+/* 只能水平置中 */
+.box1{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+/* 2. inline 系列 */
+.outter2{
+    /* 內部元素水平 */
+    text-align: center;
+}
+/* box2視為一個為文字區塊 */
+.box2{
+    display: inline-block;
+    text-align: left;
+    /* 文字水平 */
+}
+/* 3. flex */
+/* 改方向，水平垂直 */
+.outter3{
+    height: 800px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around;
+    justify-content: flex-start;
+    justify-content: flex-end;*/
+    align-items: center; 
+}
+/* .box3{
+    margin: auto;
+    align-self: center;
+} */
+/* 4. position: absolute; */
+/* 水平垂直 */
+.outter4{
+    position: relative;
+}
+.box4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* 5. 文字置中 */
+.box5{
+    /* 水平 */
+    text-align: center;
+    line-height: 200px;
+    /* 文字垂直方向置中就設定line-height等於box的高度就可以達成 */
+}
+
+
+
+
+
+
+
+
+
+
+
