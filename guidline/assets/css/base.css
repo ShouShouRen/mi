@@ -1,0 +1,52 @@
+/* content */
+/* 
+    content
+    core
+    gleble
+    utility
+*/
+/* content */
+/* default style */
+*{
+    box-sizing: border-box;
+    position: relative;
+}
+body{
+    font-family: 'serif';
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+    color: #40414f;
+    background-color: #fff;
+}
+a{
+    color: #40414f;
+    text-decoration: none;
+    transition: all .3s;
+    outline: none;
+}
+a:hover{
+    color: #6772E5;
+}
+/* heading styles */
+h1,h2,h3,h4,h5,h6,p.h1,.h2,.h3,.h4,.h5,.h6{
+    padding: 0;
+    margin: 0;
+}
+/* list style */
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* globel */
+/* typography */
+h1{
+
+}
+/* background color */
+.bgc--default{background-color: #f3f4f5;}
+.bgc--default{background-color: #f3f4f5;}
+.bgc--default{background-color: #f3f4f5;}
+.bgc--default{background-color: #f3f4f5;}
+.bgc--default{background-color: #f3f4f5;}
