@@ -50,3 +50,30 @@ h1{
 .bgc--positive{background-color: #6772e5;}
 .bgc--negatice{background-color: #f84543;}
 .bgc--alert{background-color: #f7ba36;}
+
+.bgc--black{background-color: #151730;}
+.bgc--dark--grey-1{background-color: #40414f;}
+.bgc--dark--grey-2{background-color: #686c71;}
+.bgc--light--grey-1{background-color: #f3f4f5;}
+.bgc--light--grey-2{background-color: #b2bac4;}
+.bgc--white{background-color: #fbfbfb;}
+
+/* color */
+.color--default{color: #f3f4f5;}
+.color--primary{color: #3ecf8e;}
+.color--positive{color: #6772e5;}
+.color--negatice{color: #f84543;}
+.color--alert{color: #f7ba36;}
+
+.color--black{color: #151730;}
+.color--dark--grey-1{color: #40414f;}
+.color--dark--grey-2{color: #686c71;}
+.color--light--grey-1{color: #f3f4f5;}
+.color--light--grey-2{color: #b2bac4;}
+.color--white{color: #fbfbfb;}
+
+/* utility */
+/* padding */
+.u-padding-4{padding: 4px !important;}
+.u-padding-8{padding: 8px;}
+.u-padding-16{padding: 16px;}
