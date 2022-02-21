@@ -46,7 +46,7 @@ h1{
 }
 /* background color */
 .bgc--default{background-color: #f3f4f5;}
-.bgc--default{background-color: #f3f4f5;}
-.bgc--default{background-color: #f3f4f5;}
-.bgc--default{background-color: #f3f4f5;}
-.bgc--default{background-color: #f3f4f5;}
+.bgc--primary{background-color: #3ecf8e;}
+.bgc--positive{background-color: #6772e5;}
+.bgc--negatice{background-color: #f84543;}
+.bgc--alert{background-color: #f7ba36;}
