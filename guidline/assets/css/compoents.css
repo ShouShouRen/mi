@@ -1,4 +1,5 @@
-.box{
-    height: 300px;
-    /* background-color: pink; */
+.card{
+    background-color: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
